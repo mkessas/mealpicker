@@ -40,11 +40,11 @@
 
                     <div class="row">
                         <ul>
-                            <li ng-repeat="(recipe,tags) in selectedRecipes | searchFilter:search"> 
+                            <li ng-repeat="recipe in selectedRecipes | searchFilter:search"> 
                                 <div class="panel panel-default">
                                   <div class="panel-body">
-                                    <h4>{{recipe}} 
-                                        <small ng-repeat="tag in tags">
+                                    <h4>{{recipe.name}} 
+                                        <small ng-repeat="tag in recipe.tags">
                                             <span class="label label-primary tag">{{tag}}</span>
                                         </small>
                                     </h4> 

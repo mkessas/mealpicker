@@ -1,0 +1,377 @@
+[
+    {
+        "name": "Lentils", 
+        "tags": [
+            "veggie", 
+            "soak"
+        ]
+    }, 
+    {
+        "name": "Baked Cauliflower", 
+        "tags": [
+            "veggie", 
+            "oven"
+        ]
+    }, 
+    {
+        "name": "Cashew & Coconut Chicken", 
+        "tags": [
+            "indian", 
+            "chicken", 
+            "quick"
+        ]
+    }, 
+    {
+        "name": "Cummin Eggs", 
+        "tags": [
+            "quick", 
+            "mediterranean"
+        ]
+    }, 
+    {
+        "name": "Stirfry", 
+        "tags": [
+            "veggie", 
+            "oriental"
+        ]
+    }, 
+    {
+        "name": "Potato Eggplant", 
+        "tags": [
+            "long", 
+            "indian"
+        ]
+    }, 
+    {
+        "name": "Pockets of fat", 
+        "tags": [
+            "mediterranean", 
+            "long", 
+            "semolina"
+        ]
+    }, 
+    {
+        "name": "Deepfry", 
+        "tags": [
+            "quick", 
+            "veggie"
+        ]
+    }, 
+    {
+        "name": "Qeema Karahi", 
+        "tags": [
+            "beef", 
+            "indian"
+        ]
+    }, 
+    {
+        "name": "Raj's Dal", 
+        "tags": [
+            "indian", 
+            "veggie"
+        ]
+    }, 
+    {
+        "name": "Fried Cauliflower", 
+        "tags": [
+            "veggie"
+        ]
+    }, 
+    {
+        "name": "Tlitli", 
+        "tags": [
+            "mediterranean"
+        ]
+    }, 
+    {
+        "name": "Pasta Tuna", 
+        "tags": [
+            "quick", 
+            "fish", 
+            "pasta"
+        ]
+    }, 
+    {
+        "name": "Sticky rice & Salmon", 
+        "tags": [
+            "fish", 
+            "quick"
+        ]
+    }, 
+    {
+        "name": "Chaplees & Mashed Potatoes", 
+        "tags": [
+            "beef", 
+            "overnight"
+        ]
+    }, 
+    {
+        "name": "Omelettes", 
+        "tags": [
+            "quick"
+        ]
+    }, 
+    {
+        "name": "Dips", 
+        "tags": [
+            "quick", 
+            "veggie"
+        ]
+    }, 
+    {
+        "name": "Chorba", 
+        "tags": [
+            "mediterranean", 
+            "veggie", 
+            "soak", 
+            "long", 
+            "soup"
+        ]
+    }, 
+    {
+        "name": "Chicken Shnitzel", 
+        "tags": [
+            "chicken"
+        ]
+    }, 
+    {
+        "name": "Tacos", 
+        "tags": [
+            "mexican", 
+            "beef"
+        ]
+    }, 
+    {
+        "name": "Fried Rice", 
+        "tags": [
+            "quick"
+        ]
+    }, 
+    {
+        "name": "Beef Broccoli", 
+        "tags": [
+            "veggie", 
+            "beef", 
+            "oriental"
+        ]
+    }, 
+    {
+        "name": "Chicken cutlets", 
+        "tags": [
+            "chicken"
+        ]
+    }, 
+    {
+        "name": "Chili", 
+        "tags": [
+            "beef", 
+            "mexican"
+        ]
+    }, 
+    {
+        "name": "Pizza", 
+        "tags": [
+            "long", 
+            "mediterranean", 
+            "oven"
+        ]
+    }, 
+    {
+        "name": "Mattar Paneer", 
+        "tags": [
+            "indian", 
+            "long", 
+            "veggie"
+        ]
+    }, 
+    {
+        "name": "Fried Eggs", 
+        "tags": [
+            "quick"
+        ]
+    }, 
+    {
+        "name": "Baked Fish & Kumara", 
+        "tags": [
+            "quick", 
+            "fish", 
+            "oven"
+        ]
+    }, 
+    {
+        "name": "Punjabi Choley", 
+        "tags": [
+            "indian", 
+            "veggie", 
+            "long", 
+            "soak"
+        ]
+    }, 
+    {
+        "name": "Mloukhia", 
+        "tags": [
+            "mediterranean", 
+            "long"
+        ]
+    }, 
+    {
+        "name": "Burgers", 
+        "tags": [
+            "beef", 
+            "lamb"
+        ]
+    }, 
+    {
+        "name": "Leknef", 
+        "tags": [
+            "beef", 
+            "mediterranean", 
+            "overnight"
+        ]
+    }, 
+    {
+        "name": "Lamb Madras", 
+        "tags": [
+            "indian", 
+            "lamb"
+        ]
+    }, 
+    {
+        "name": "Nachos", 
+        "tags": [
+            "mexican", 
+            "quick"
+        ]
+    }, 
+    {
+        "name": "Butter Chicken", 
+        "tags": [
+            "indian", 
+            "chicken", 
+            "quick"
+        ]
+    }, 
+    {
+        "name": "Kefta Wraps", 
+        "tags": [
+            "beef"
+        ]
+    }, 
+    {
+        "name": "Urdu dal", 
+        "tags": [
+            "soak", 
+            "indian", 
+            "long"
+        ]
+    }, 
+    {
+        "name": "Marinated Chicken", 
+        "tags": [
+            "chicken", 
+            "overnight"
+        ]
+    }, 
+    {
+        "name": "Chicken strips with Couscous", 
+        "tags": [
+            "chicken", 
+            "mediterranean"
+        ]
+    }, 
+    {
+        "name": "Pasta with meat sauce", 
+        "tags": [
+            "beef", 
+            "mediterranean", 
+            "pasta"
+        ]
+    }, 
+    {
+        "name": "Meshoua", 
+        "tags": [
+            "quick", 
+            "veggie", 
+            "mediterranean"
+        ]
+    }, 
+    {
+        "name": "Quesadillas", 
+        "tags": [
+            "mexican", 
+            "quick", 
+            "veggie"
+        ]
+    }, 
+    {
+        "name": "Sushi", 
+        "tags": [
+            "long", 
+            "oriental", 
+            "fish"
+        ]
+    }, 
+    {
+        "name": "Pasta with white sauce", 
+        "tags": [
+            "mediterranean", 
+            "pasta"
+        ]
+    }, 
+    {
+        "name": "Chicken Noodle Soup", 
+        "tags": [
+            "chicken", 
+            "soup"
+        ]
+    }, 
+    {
+        "name": "Jarri", 
+        "tags": [
+            "soup", 
+            "mediterranean", 
+            "long"
+        ]
+    }, 
+    {
+        "name": "Creamy Broccoli Blue Cheese", 
+        "tags": [
+            "soup"
+        ]
+    }, 
+    {
+        "name": "Felfla", 
+        "tags": [
+            "mediterranean", 
+            "veggie"
+        ]
+    }, 
+    {
+        "name": "Couscous Spicy", 
+        "tags": [
+            "mediterranean", 
+            "veggie"
+        ]
+    }, 
+    {
+        "name": "Fried Salmon in lemon & soy", 
+        "tags": [
+            "oriental", 
+            "fish"
+        ]
+    }, 
+    {
+        "name": "Loubia", 
+        "tags": [
+            "overnight", 
+            "mediterranean"
+        ]
+    }, 
+    {
+        "name": "Olive Oil Eggs", 
+        "tags": [
+            "quick", 
+            "mediterranean"
+        ]
+    }
+]
