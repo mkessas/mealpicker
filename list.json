@@ -1,0 +1,206 @@
+{
+  "Butter Chicken": [
+    "indian",
+    "chicken",
+    "quick"
+  ],
+  "Cashew & Coconut Chicken": [
+    "indian",
+    "chicken",
+    "quick"
+  ],
+  "Chicken Shnitzel": [
+    "beef"
+  ],
+  "Chicken strips with Couscous": [
+    "chicken",
+    "mediterranean"
+  ],
+  "Chicken cutlets": [
+    "chicken"
+  ],
+  "Tacos": [
+    "mexican",
+    "beef"
+  ],
+  "Nachos": [
+    "mexican",
+    "quick"
+  ],
+  "Chili": [
+    "beef",
+    "mexican"
+  ],
+  "Kefta Wraps": [
+    "beef"
+  ],
+  "Qeema Karahi": [
+    "beef",
+    "indian"
+  ],
+  "Chaplees & Mashed Potatoes": [
+    "beef",
+    "overnight"
+  ],
+  "Marinated Chicken": [
+    "chicken",
+    "overnight"
+  ],
+  "Leknef": [
+    "beef",
+    "mediterranean",
+    "overnight"
+  ],
+  "Couscous Spicy": [
+    "mediterranean",
+    "veggie"
+  ],
+  "Stirfry": [
+    "veggie",
+    "oriental"
+  ],
+  "Mloukhia": [
+    "mediterranean",
+    "long"
+  ],
+  "Pockets of fat": [
+    "mediterranean",
+    "long",
+    "semolina"
+  ],
+  "Loubia": [
+    "overnight",
+    "mediterranean"
+  ],
+  "Lamb Madras": [
+    "indian",
+    "lamb"
+  ],
+  "Beef Broccoli": [
+    "veggie",
+    "beef",
+    "oriental"
+  ],
+  "Fried Rice": [
+    "quick"
+  ],
+  "Tlitli": [
+    "mediterranean"
+  ],
+  "Pasta with meat sauce": [
+    "beef",
+    "mediterranean"
+  ],
+  "Paste with white sauce": [
+    "mediterranean"
+  ],
+  "Quesadillas": [
+    "mexican",
+    "quick",
+    "veggie"
+  ],
+  "Pizza": [
+    "long",
+    "mediterranean",
+    "oven"
+  ],
+  "Sushi": [
+    "long",
+    "oriental",
+    "fish"
+  ],
+  "Sticky rice & Salmon": [
+    "fish",
+    "quick"
+  ],
+  "Baked Fish & Kumara": [
+    "quick",
+    "fish",
+    "oven"
+  ],
+  "Fried Salmon in lemon & soy": [
+    "oriental",
+    "fish"
+  ],
+  "Lentils": [
+    "veggie",
+    "soak"
+  ],
+  "Pasta Tuna": [
+    "quick",
+    "fish"
+  ],
+  "Meshoua": [
+    "quick",
+    "veggie",
+    "mediterranean"
+  ],
+  "Mattar Paneer": [
+    "indian",
+    "long",
+    "veggie"
+  ],
+  "Punjabi Choley": [
+    "indian",
+    "veggie",
+    "long",
+    "soak"
+  ],
+  "Potato Eggplant": [
+    "long",
+    "indian"
+  ],
+  "Felfla": [
+    "mediterranean",
+    "veggie"
+  ],
+  "Fried Cauliflower": [
+    "veggie"
+  ],
+  "Baked Cauliflower": [
+    "veggie",
+    "oven"
+  ],
+  "Cummin Eggs": [
+    "quick",
+    "mediterranean"
+  ],
+  "Olive Oil Eggs": [
+    "quick",
+    "mediterranean"
+  ],
+  "Dips": [
+    "quick",
+    "veggie"
+  ],
+  "Urdu dal": [
+    "soak",
+    "indian",
+    "long"
+  ],
+  "Chorba": [
+    "mediterranean",
+    "veggie",
+    "soak",
+    "long",
+    "soup"
+  ],
+  "Chicken Noodle Soup": [
+    "chicken",
+    "soup"
+  ],
+  "Creamy Broccoli Blue Cheese": [
+    "soup"
+  ],
+  "Jarri": [
+    "soup",
+    "mediterranean",
+    "long"
+  ],
+  "Fried Eggs": [
+    "quick"
+  ],
+  "Omelettes": [
+    "quick"
+  ]
+}

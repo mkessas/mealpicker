@@ -1,0 +1,12 @@
+/*@import url(https://fonts.googleapis.com/css?family=Indie+Flower);*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Maven+Pro:400,500);
+body { 
+    margin: 30px;
+    font-family: Maven Pro;
+}
+
+ul { list-style-type: none; }
+#tags ul { list-style-type: none; }
+#recipes ul { list-style-type: none; }
+.tag { font-family: Open Sans; font-size: 11px; font-weight: 400; }

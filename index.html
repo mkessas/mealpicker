@@ -1,0 +1,56 @@
+<!doctype html>
+<html ng-app="mealpickerApp">
+    <head>
+        <title>Dinner Time</title>
+    </head>
+    <body ng-controller="mealCtrl">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/mealpicker.css">
+
+        <div class="container-fluid">
+            <div class="row">
+                
+                <!-- Tags -->
+                <div class="col-md-3" id="tags">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">Tags</div>
+                        <div class="panel-body">
+                            <div ng-repeat="tag in tags">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> <span style="text-transform: capitalize">{{tag}}</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recipies -->
+                <div class="col-md-9" id="recipes">
+                    <ul>
+                        <li ng-repeat="(recipe,tags) in recipes"> 
+                            <div class="panel panel-default">
+                              <div class="panel-body">
+                                <h4>{{recipe}} 
+                                    <small ng-repeat="tag in tags">
+                                        <span class="label label-primary tag">{{tag}}</span>
+                                    </small>
+                                </h4> 
+                              </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <script language="javascript" src="js/angular.min.js"></script>
+        <script language="javascript" src="js/bootstrap.min.js"></script>
+        <script language="javascript" src="js/mealpicker.js"></script>
+    </body>
+</html>
