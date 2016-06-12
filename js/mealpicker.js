@@ -4,21 +4,6 @@ app.controller('mealCtrl', ['$scope', '$http', '$sce', function ($scope, $http, 
     $scope.tags = [];
     $scope.recipes = [];
     $scope.selectedTags = {};
-    $scope.selectedRecipes = [];
-
-    $scope.toggleTag = function(tag) {
-        $scope.selectedRecipes = [];
-        for (var recipe in $scope.recipes) {
-            var tagCount = 0;
-            var tagMatchCount = 0;
-            for (var tag in $scope.selectedTags) {
-                if ($scope.selectedTags[tag] == false) continue;
-                tagCount++;
-                if ($scope.recipes[recipe].tags.indexOf(tag) > -1) tagMatchCount++;
-            }
-            if (tagMatchCount == tagCount) $scope.selectedRecipes.push($scope.recipes[recipe]);
-        }
-    }
 
     $scope.count = function(tag) {
         var count = 0;
@@ -48,6 +33,7 @@ app.controller('mealCtrl', ['$scope', '$http', '$sce', function ($scope, $http, 
     }
 
     $scope.highlight = function(text, search) {
+        if (!text) return;
         if (!search) return $sce.trustAsHtml(text);
         return $sce.trustAsHtml(text.replace(new RegExp(search, 'gi'), '<mark>$&</mark>'));
     };
@@ -57,10 +43,27 @@ app.controller('mealCtrl', ['$scope', '$http', '$sce', function ($scope, $http, 
 }]);
 
 
+app.filter('tagFilter', function() {
+    return function(input, selectedTags) {
+        if (!selectedTags) return input;
+        var results = [];
+        for (var recipe in input) {
+            var tagCount = 0;
+            var tagMatchCount = 0;
+            for (var tag in selectedTags) {
+                if (selectedTags[tag] == false) continue;
+                tagCount++;
+                if (input[recipe].tags.indexOf(tag) > -1) tagMatchCount++;
+            }
+            if (tagMatchCount == tagCount) results.push(input[recipe]);
+        }
+        return results;
+    }
+});
+
 app.filter('searchFilter', function() {
     return function(input, search) {
         if (!search) return input;
-        if (!input) return input;
         var result = [];
         angular.forEach(input, function(recipe) {
             if (recipe.name.toLowerCase().indexOf(search) > -1) {
