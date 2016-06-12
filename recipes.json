@@ -1,6 +1,7 @@
 [
     {
         "name": "Lentils", 
+        "description": "Simple lentil dish flavored with cumin and garlic",
         "tags": [
             "veggie", 
             "soak"
@@ -8,6 +9,7 @@
     }, 
     {
         "name": "Baked Cauliflower", 
+        "description": "Steam cauliflower chunks baked in the oven with milk and cheese",
         "tags": [
             "veggie", 
             "oven"
@@ -15,6 +17,7 @@
     }, 
     {
         "name": "Cashew & Coconut Chicken", 
+        "description": "Featuring Patak's Cashew & Cocunut curry sauce, panfried chicken",
         "tags": [
             "indian", 
             "chicken", 
@@ -23,6 +26,7 @@
     }, 
     {
         "name": "Cummin Eggs", 
+        "description": "Scrambled eggs with cumin and tomato paste",
         "tags": [
             "quick", 
             "mediterranean"
@@ -30,6 +34,7 @@
     }, 
     {
         "name": "Stirfry", 
+        "description": "A meadley of veggetables stirfried in a wok",
         "tags": [
             "veggie", 
             "oriental"
@@ -37,6 +42,7 @@
     }, 
     {
         "name": "Potato Eggplant", 
+        "description": "Potatoes and egglant curry",
         "tags": [
             "long", 
             "indian"
@@ -44,6 +50,7 @@
     }, 
     {
         "name": "Pockets of fat", 
+        "description": "Spicy onions and tomatoes filling inside semolina dough pockets grilled",
         "tags": [
             "mediterranean", 
             "long", 
@@ -52,6 +59,7 @@
     }, 
     {
         "name": "Deepfry", 
+        "description": "Deep-fried french fries, springrolls, and the catch of the day",
         "tags": [
             "quick", 
             "veggie"
@@ -59,6 +67,7 @@
     }, 
     {
         "name": "Qeema Karahi", 
+        "description": "Pakistani style beef mince in a series of spices, served with rice",
         "tags": [
             "beef", 
             "indian"
@@ -66,6 +75,7 @@
     }, 
     {
         "name": "Raj's Dal", 
+        "description": "Dal lentils cooked with veggies",
         "tags": [
             "indian", 
             "veggie"
@@ -73,18 +83,21 @@
     }, 
     {
         "name": "Fried Cauliflower", 
+        "description": "Steam cauliflower chunks battered with eggwash and panfried golden",
         "tags": [
             "veggie"
         ]
     }, 
     {
         "name": "Tlitli", 
+        "description": "Risotto pressure-cooked with chickpeas and zucchini",
         "tags": [
             "mediterranean"
         ]
     }, 
     {
         "name": "Pasta Tuna", 
+        "description": "Elbow pasta mixed with oil or mayonnaise, tuna, cheese, and a variety of veggies",
         "tags": [
             "quick", 
             "fish", 
@@ -93,6 +106,7 @@
     }, 
     {
         "name": "Sticky rice & Salmon", 
+        "description": "Donburi of steamed rice, greens, and salmon",
         "tags": [
             "fish", 
             "quick"
@@ -100,6 +114,7 @@
     }, 
     {
         "name": "Chaplees & Mashed Potatoes", 
+        "description": "Afghani meat patties infused with coriander seeds served on a bed of mashed potatoes",
         "tags": [
             "beef", 
             "overnight"
@@ -107,12 +122,14 @@
     }, 
     {
         "name": "Omelettes", 
+        "description": "A variety of omelettes",
         "tags": [
             "quick"
         ]
     }, 
     {
         "name": "Dips", 
+        "description": "Guaccamole, tatziki (garlic yoghurt), hummus, babaghanouge served with fresh pita",
         "tags": [
             "quick", 
             "veggie"
@@ -120,6 +137,7 @@
     }, 
     {
         "name": "Chorba", 
+        "description": "Morroccan stew",
         "tags": [
             "mediterranean", 
             "veggie", 
@@ -130,12 +148,14 @@
     }, 
     {
         "name": "Chicken Shnitzel", 
+        "description": "Chicken patties breaded and panfried",
         "tags": [
             "chicken"
         ]
     }, 
     {
         "name": "Tacos", 
+        "description": "Mexican-style beef mince seasoned with mexican spies served in tortillas with diced tomatoes, onions, and cheese",
         "tags": [
             "mexican", 
             "beef"
@@ -143,12 +163,14 @@
     }, 
     {
         "name": "Fried Rice", 
+        "description": "Oriental-style fried rice with eggs and frozen veggies",
         "tags": [
             "quick"
         ]
     }, 
     {
         "name": "Beef Broccoli", 
+        "description": "Beef and broccoli stirfry",
         "tags": [
             "veggie", 
             "beef", 
@@ -157,12 +179,14 @@
     }, 
     {
         "name": "Chicken cutlets", 
+        "description": "Chicken patties breaded and panfried",
         "tags": [
             "chicken"
         ]
     }, 
     {
         "name": "Chili", 
+        "description": "Beef mince cooked in mexican-style spices, tomato sauce, and peppers simmered and served hot",
         "tags": [
             "beef", 
             "mexican"
@@ -170,6 +194,7 @@
     }, 
     {
         "name": "Pizza", 
+        "description": "Italian-style pizzas with the toppings of the day",
         "tags": [
             "long", 
             "mediterranean", 
@@ -178,6 +203,7 @@
     }, 
     {
         "name": "Mattar Paneer", 
+        "description": "Indian cottage cheese cooked with peas in a tomato gravy",
         "tags": [
             "indian", 
             "long", 
@@ -186,12 +212,14 @@
     }, 
     {
         "name": "Fried Eggs", 
+        "description": "Over-easy panfried eggs served with toast",
         "tags": [
             "quick"
         ]
     }, 
     {
         "name": "Baked Fish & Kumara", 
+        "description": "Frozen fish and diced kumara roasted in the oven",
         "tags": [
             "quick", 
             "fish", 
@@ -200,6 +228,7 @@
     }, 
     {
         "name": "Punjabi Choley", 
+        "description": "Chickpeas curry cooked Punjabi style",
         "tags": [
             "indian", 
             "veggie", 
@@ -209,13 +238,16 @@
     }, 
     {
         "name": "Mloukhia", 
+        "description": "Algerian mloukhia leafs ground and simmered with diced beef, tomatoes, and onions",
         "tags": [
             "mediterranean", 
-            "long"
+            "long",
+            "beef"
         ]
     }, 
     {
         "name": "Burgers", 
+        "description": "Beef or Lamb mince into patties serviced in a bun with a choice of condiments",
         "tags": [
             "beef", 
             "lamb"
@@ -223,6 +255,7 @@
     }, 
     {
         "name": "Leknef", 
+        "description": "Beef cubes marinated in garlic and cumin cooked with diced potatoes in a tomato sauce",
         "tags": [
             "beef", 
             "mediterranean", 
@@ -231,6 +264,7 @@
     }, 
     {
         "name": "Lamb Madras", 
+        "description": "Lamb cubes marinated in Madras curry and served on rice",
         "tags": [
             "indian", 
             "lamb"
@@ -238,6 +272,7 @@
     }, 
     {
         "name": "Nachos", 
+        "description": "Nacho chips topped with Old El Paso salsa and garnished with cheese, melted in the microwave",
         "tags": [
             "mexican", 
             "quick"
@@ -245,6 +280,7 @@
     }, 
     {
         "name": "Butter Chicken", 
+        "description": "Featuring Patak's butter chicken curry sauce mixed with panfried chicken cubes served on rice",
         "tags": [
             "indian", 
             "chicken", 
@@ -253,12 +289,15 @@
     }, 
     {
         "name": "Kefta Wraps", 
+        "description": "Beef or lamb seasoned meat strips barbecued and served in pita with a choice of condiments",
         "tags": [
-            "beef"
+            "beef",
+            "lamb"
         ]
     }, 
     {
         "name": "Urdu dal", 
+        "description": "Creamy lentils soaked overnight and cooked indian-style, served on a bed of rice",
         "tags": [
             "soak", 
             "indian", 
@@ -266,37 +305,36 @@
         ]
     }, 
     {
-        "name": "Marinated Chicken", 
+        "name": "Marinated Chicken strips", 
+        "description": "Chicken marinated in a variety of herbs and spices and grilled on the pan, servied on couscous or bread",
         "tags": [
             "chicken", 
             "overnight"
         ]
     }, 
     {
-        "name": "Chicken strips with Couscous", 
-        "tags": [
-            "chicken", 
-            "mediterranean"
-        ]
-    }, 
-    {
         "name": "Pasta with meat sauce", 
+        "description": "Italian spaghetti pasta in a beef mince tomato sauce in a variety of herbs and spices",
         "tags": [
             "beef", 
             "mediterranean", 
-            "pasta"
+            "pasta",
+            "lamb"
         ]
     }, 
     {
         "name": "Meshoua", 
+        "description": "Ground peppers, tomatoes, egglplants, and onions served with tuna, olives, and olive oil eaten with pita",
         "tags": [
             "quick", 
             "veggie", 
-            "mediterranean"
+            "mediterranean",
+            "fish"
         ]
     }, 
     {
         "name": "Quesadillas", 
+        "description": "Onions, tofu, and mushrooms cooked together and served in tosted tortillas with loads of cheese",
         "tags": [
             "mexican", 
             "quick", 
@@ -305,6 +343,7 @@
     }, 
     {
         "name": "Sushi", 
+        "description": "Japanese home-made tuna and smoked salmon sushi",
         "tags": [
             "long", 
             "oriental", 
@@ -313,6 +352,7 @@
     }, 
     {
         "name": "Pasta with white sauce", 
+        "description": "Spaghetti served with a sauce bechamel",
         "tags": [
             "mediterranean", 
             "pasta"
@@ -320,6 +360,7 @@
     }, 
     {
         "name": "Chicken Noodle Soup", 
+        "description": "Classic chicken noodle soup",
         "tags": [
             "chicken", 
             "soup"
@@ -327,6 +368,7 @@
     }, 
     {
         "name": "Jarri", 
+        "description": "Red jarri soup made up of burgol, tomato sauce, and a pepper",
         "tags": [
             "soup", 
             "mediterranean", 

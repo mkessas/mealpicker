@@ -1,15 +1,13 @@
-/* Hello, this is Dinner Time */
-
 app = angular.module('mealpickerApp', []);
 
-app.controller('mealCtrl', ['$scope', '$http', function ($scope, $http) {
+app.controller('mealCtrl', ['$scope', '$http', '$sce', function ($scope, $http, $sce) {
     $scope.tags = [];
-    $scope.recipes = {};
+    $scope.recipes = [];
     $scope.selectedTags = {};
-    $scope.selectedRecipes = {};
+    $scope.selectedRecipes = [];
 
     $scope.toggleTag = function(tag) {
-        $scope.selectedRecipes = {};
+        $scope.selectedRecipes = [];
         for (var recipe in $scope.recipes) {
             var tagCount = 0;
             var tagMatchCount = 0;
@@ -18,7 +16,7 @@ app.controller('mealCtrl', ['$scope', '$http', function ($scope, $http) {
                 tagCount++;
                 if ($scope.recipes[recipe].tags.indexOf(tag) > -1) tagMatchCount++;
             }
-            if (tagMatchCount == tagCount) $scope.selectedRecipes[recipe] = $scope.recipes[recipe];
+            if (tagMatchCount == tagCount) $scope.selectedRecipes.push($scope.recipes[recipe]);
         }
     }
 
@@ -49,18 +47,10 @@ app.controller('mealCtrl', ['$scope', '$http', function ($scope, $http) {
         });
     }
 
-    $scope.tagCount = function() {
-        var count = 0;
-        angular.forEach($scope.selectedTags, function (t,v) {
-            if ($scope.selectedTags[v] == true) count++;
-        });
-        return count;
-    }
-
-    $scope.recipeCount = function() {
-        return $scope.selectedRecipes.length;
-    }
-
+    $scope.highlight = function(text, search) {
+        if (!search) return $sce.trustAsHtml(text);
+        return $sce.trustAsHtml(text.replace(new RegExp(search, 'gi'), '<mark>$&</mark>'));
+    };
 
     $scope.loadRecipes();
 
@@ -73,7 +63,16 @@ app.filter('searchFilter', function() {
         if (!input) return input;
         var result = [];
         angular.forEach(input, function(recipe) {
-            if (recipe.name.toLowerCase().indexOf(search) > -1) result.push(recipe);
+            if (recipe.name.toLowerCase().indexOf(search) > -1) {
+                result.push(recipe);
+                return;
+            }
+            try {
+                if (recipe.description.toLowerCase().indexOf(search) > -1) {
+                    result.push(recipe);
+                    return;
+                }
+            } catch (e) { };
         });
         return result;
     }
