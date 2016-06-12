@@ -19,7 +19,8 @@
                             <div ng-repeat="tag in tags">
                                 <div class="checkbox">
                                     <label>
-                                        <input type="checkbox"> <span style="text-transform: capitalize">{{tag}}</span>
+                                        <input type="checkbox" ng-model="selectedTags[tag]" ng-change="toggleTag()">
+                                        <span style="text-transform: capitalize">{{tag}} <span class="badge">{{count(tag)}}</span></span>
                                     </label>
                                 </div>
                             </div>
@@ -39,7 +40,7 @@
 
                     <div class="row">
                         <ul>
-                            <li ng-repeat="(recipe,tags) in recipes | searchFilter:search"> 
+                            <li ng-repeat="(recipe,tags) in selectedRecipes | searchFilter:search"> 
                                 <div class="panel panel-default">
                                   <div class="panel-body">
                                     <h4>{{recipe}} 
@@ -52,6 +53,13 @@
                             </li>
                         </ul>
                     </div>
+
+                    <div class="row" ng-hide="">
+                        <div class="col-md-4 col-md-offset-4">
+                            <big><i>No Recipes Found</i></big>
+                        </div>
+                    </div>
+
                 </div>
 
 
