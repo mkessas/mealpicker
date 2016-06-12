@@ -29,19 +29,29 @@
 
                 <!-- Recipies -->
                 <div class="col-md-9" id="recipes">
-                    <ul>
-                        <li ng-repeat="(recipe,tags) in recipes"> 
-                            <div class="panel panel-default">
-                              <div class="panel-body">
-                                <h4>{{recipe}} 
-                                    <small ng-repeat="tag in tags">
-                                        <span class="label label-primary tag">{{tag}}</span>
-                                    </small>
-                                </h4> 
-                              </div>
-                            </div>
-                        </li>
-                    </ul>
+
+                    <div class="row">
+                        <div class="input-group pull-right" style="width: 300px; margin-bottom: 20px;">
+                          <input type="text" class="form-control" placeholder="Search Recipes" aria-describedby="basic-addon2" ng-model="search">
+                          <span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <ul>
+                            <li ng-repeat="(recipe,tags) in recipes | searchFilter:search"> 
+                                <div class="panel panel-default">
+                                  <div class="panel-body">
+                                    <h4>{{recipe}} 
+                                        <small ng-repeat="tag in tags">
+                                            <span class="label label-primary tag">{{tag}}</span>
+                                        </small>
+                                    </h4> 
+                                  </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
 

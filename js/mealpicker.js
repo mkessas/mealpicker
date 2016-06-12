@@ -24,3 +24,18 @@ app.controller('mealCtrl', ['$scope', '$http', function ($scope, $http) {
     $scope.getRecipes();
 
 }]);
+
+app.filter('searchFilter', function() {
+    return function(input, search) {
+        if (!search) return input;
+    if (!input) return input;
+        var expected = ('' + search).toLowerCase();
+        var result = {};
+        angular.forEach(input, function(value, key) {
+            if (key.toLowerCase().indexOf(search) > -1) result[key] = value;
+        });
+        return result;
+        
+      //return (!!input) ? input.charAt(0).toUpperCase() + input.substr(1).toLowerCase() : '';
+    }
+});
